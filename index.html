@@ -5,6 +5,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;300;400&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/2332d21f2a.js" crossorigin="anonymous"></script>
         <title>Portfolio</title>
         <meta charset="UTF-8" />
     </head>
@@ -12,13 +13,16 @@
     <section class="hero">
         <nav> 
             <img class ="logo" src="src/images/logo.png" alt="Site Logo">   
-            <ul> 
+            <ul id="nav-list"> 
                   
                 <li><a href="#about-me"> About Me</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
 
             </ul>
+            <button class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </button>
         </nav>
         <div class="heroarea">   
             <div class="herotext">        
@@ -37,7 +41,7 @@
     <section class ="sub-section" id="about-me">
         <div class ="information">
             <h2>About Me</h2>
-            <p2>Hi, my name is Christian Rawley. I am a Salesforce Professional with a passion for finding value-centered solutions.</p2>
+            <p2>Hi, my name is Christian Rawley. I am a Salesforce Professional with a passion for technology and continuous learning.</p2>
         </div>
         <div class ="headshot-container">
             <img class="headshot" src="src\images\DSC_0678.JPG" alt="headshot">
@@ -48,11 +52,11 @@
         <h2>Projects</h2>
         <div class="project-container">
             <div class="project-card">
-                <img class="project-img" src="src\images\Screenshot 2022-12-02 080635.png" alt="project one image">
-                <h3>Project One</h3>
-                <p class="subtext">This is my project. It was fun to make it!</p>
+                <img class="project-img" src="src\images\thissite.png" alt="project one image">
+                <h3>This Site</h3>
+                <p class="subtext">This is the repo for the code I wrote to build this site. It was fun to make it, and relatively easy with the help of online tutorials.</p>
                 <hr/>
-                <p class="subtext"><a class="project-link" href="https://github.com/rawlcode">View here</a></p>
+                <p class="subtext"><a class="project-link" href="https://github.com/rawlcode/onlineportfolio">View here</a></p>
             </div>
             <div class="project-card">
                 <img class="project-img" src="src\images\Screenshot 2022-12-02 080635.png" alt="project two image">
